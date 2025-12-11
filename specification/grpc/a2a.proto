@@ -684,7 +684,7 @@ message ClientCredentialsOAuthFlow {
 
 // --8<-- [start:DeviceCodeOAuthFlow]
 // Defines configuration details for the OAuth 2.0 Device Code flow (RFC 8628).
-// This flow is designed for input-constrained devices such as IoT devices, TVs,
+// This flow is designed for input-constrained devices such as IoT devices,
 // and CLI tools where the user authenticates on a separate device.
 message DeviceCodeOAuthFlow {
   // The device authorization endpoint URL.
